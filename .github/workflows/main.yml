@@ -30,4 +30,4 @@ jobs:
         with:
           artifacts: "*.class"
           bodyFile: "body.md"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
